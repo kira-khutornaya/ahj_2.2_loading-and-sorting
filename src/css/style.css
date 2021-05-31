@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+}
+
+th, td, tr {
+    padding: 5px 10px;
+    border: 1px double #bcbcbe; 
+}
+
+.arrow_up {
+    background-image: url("../img/arrow_up.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right 3px center;
+}
+
+.arrow_down {
+    background-image: url("../img/arrow_down.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right 3px center;
+}
